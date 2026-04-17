@@ -17,7 +17,7 @@
   <wsdl:message name="HelloResponse"><wsdl:part element="tns:Response" name="parameters"/></wsdl:message>
 
   <wsdl:portType name="TestPortType">
-    <wsdl:operation name="SayHello Qa">
+    <wsdl:operation name="SayHello from git">
       <wsdl:input message="tns:HelloRequest"/>
       <wsdl:output message="tns:HelloResponse"/>
     </wsdl:operation>
